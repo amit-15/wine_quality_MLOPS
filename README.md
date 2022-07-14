@@ -27,3 +27,5 @@ git remote add origin https://github.com/amit-15/wine_quality_MLOPS.git
 git branch -M main
 
 git push --force origin main
+
+touch src/get_data.py  #start working on get_data.py
