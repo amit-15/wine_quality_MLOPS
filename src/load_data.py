@@ -13,7 +13,7 @@ def load_and_save(config_path):
     df.to_csv(raw_data_path, sep=",", index=False, header=new_cols)
     
 if __name__ == '__main__':
-    arg = argparse.ArgumentParser()
-    arg.add_argument("--config", default = "params.yaml")
-    parsed_args = arg.parse_args()
+    args = argparse.ArgumentParser()
+    args.add_argument("--config", default = "params.yaml")
+    parsed_args = args.parse_args()
     load_and_save(config_path = parsed_args.config)

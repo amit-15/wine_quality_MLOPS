@@ -25,7 +25,8 @@ def split_and_saved_data(config_path):
     test.to_csv(test_data_path, sep = ",", index =False, encoding ="utf-8")
     
 if __name__ == '__main__':
-    arg = argparse.ArgumentParser()
-    arg.add_argument("--config", default = "params.yaml")
-    parsed_args = arg.parse_args()
+    args = argparse.ArgumentParser()
+    args.add_argument("--config", default = "params.yaml")
+    parsed_args = args.parse_args()
     split_and_saved_data(config_path = parsed_args.config)
+    

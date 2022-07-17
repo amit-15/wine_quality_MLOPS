@@ -28,4 +28,7 @@ git branch -M main
 
 git push --force origin main
 
-touch src/get_data.py  #start working on get_data.py
+touch src/get_data.py   #start working on get_data.py
+                        #get_data add pushing changes
+
+touch src/load_data.py

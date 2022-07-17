@@ -21,8 +21,8 @@ def get_data(config_path):
     return df
 
 if __name__ == '__main__':
-    arg = argparse.ArgumentParser()
-    arg.add_argument("--config", default = "params.yaml")
-    parsed_args = arg.parse_args()
+    args = argparse.ArgumentParser()
+    args.add_argument("--config", default = "params.yaml")
+    parsed_args = args.parse_args()
     data = get_data(config_path = parsed_args.config)
     
