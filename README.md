@@ -32,3 +32,29 @@ touch src/get_data.py   #start working on get_data.py
                         #get_data add pushing changes
 
 touch src/load_data.py
+
+    # add stage in dvc.yaml file 
+
+touch src/split_data.py
+
+touch src/train_and_evaluate.py
+
+mkdir report
+
+touch report/scores.json
+touch params/scores.json
+
+dvc metrics show
+
+dvc metrics diff
+
+touch tox.ini
+
+mkdir tests
+
+touch tests/conftest.py tests/test_config.py
+
+touch setup.py
+pip install -e .
+
+python setup.py sdist bdist_wheel
