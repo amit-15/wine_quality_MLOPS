@@ -10,3 +10,4 @@ joblib
 sklearn
 pytest
 tox
+flake8
