@@ -88,3 +88,5 @@ touch app.py
 mkdir -p .github/workflows/
 
 touch .github/workflows/ci-cd.yaml
+
+git add . && git commit -m "workflow updated" && git push origin main
