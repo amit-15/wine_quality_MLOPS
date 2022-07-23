@@ -58,3 +58,29 @@ touch setup.py
 pip install -e .
 
 python setup.py sdist bdist_wheel
+
+pip install jupyter\lab
+
+jupyter-lab notebooks/
+
+-p prediction_service/model
+
+mkdir prediction_service/prediction.py
+
+mkdir webapp
+
+mkdir -p webapp/static/css
+
+mkdir -p webapp/static/script
+
+touch webapp/static/script/index.js
+
+touch webapp/tamplates
+
+touch webapp/tamplates/index.html
+
+touch webapp/tamplates/404.html
+
+touch webapp/tamplates/base.html
+
+touch app.py
