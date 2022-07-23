@@ -84,3 +84,6 @@ touch webapp/tamplates/404.html
 touch webapp/tamplates/base.html
 
 touch app.py
+
+mkdir -p .github/workflows/
+touch .github/workflows/ci-cd.yaml
